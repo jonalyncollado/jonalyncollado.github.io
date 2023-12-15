@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Online Portfolio</title>
+    <link rel="stylesheet" href="./collado-style.css">
+    <script src="https://kit.fontawesome.com/0b09390571.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">JBC<span class="cologo">ollado.</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">services</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
+        </nav>
+    </header>
+<!----------HOME----------->
+<section class="home" id="home">
+    <div class="home-slider">
+         <section class="backg">
+            <div class="content">
+                <h3>Jonalyn Collado</h3>
+                <p>Bachelor of Science in Infomation Technology</p>
+                <a href="./img/RESUME.pdf" class="btn">Resume</a>
+            </div>
+        </section>
+    </div>
+</section>
+<!----------ABOUT----------->
+<section class="about" id="about">
+    <h1 class="heading">about me</h1>
+    <div class="row">
+        <div class="img">
+            <img src="./img/user.png" alt="img">
+        </div>
+        <div class="content">
+            <p>Hello there! I'm Jonalyn Collado, a passionate Information Technology student at Rizal Technological University. 
+                I am fueled by a relentless curiosity about the world of data and technology, and my dream is to harness this curiosity 
+                to become a skilled Business Data Analyst. I thrive on challenges and see every obstacle as an opportunity to learn and grow. 
+                With a keen eye for detail problem-solving, I am dedicated to mastering the intricacies of data analysis to 
+                drive informed business decisions. Join me on this exciting journey of turning data into insights and dreams into reality</p>
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Computer Litracy</span></li>
+                    <li><span>Communication</span></li>
+                    <li><span>Team Work</span></li>
+                    <li><span>Time Management</span></li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>20 days</span><br>Office Work Training at City Gornvement of Pasig</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2010-2016</span><br>San Miguel Elementary School</li>
+                    <li><span>2016-2020</span><br>Sagad High School</li>
+                    <li><span>2020-2022</span><br>Arellano University-Pasig Campus</li>
+                    <li><span>2022-Present</span><br>Rizal Technological University</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!----------SERVICES----------->
+<section class="services" id="services">
+    <h1 class="heading">services</h1>
+    <div class="box-container">
+        <div class="sq">
+            <img src="./img/services1.png">
+            <h3>Animation</h3>
+        </div>
+        <div class="sq">
+            <img src="./img/services2.png">
+            <h3>Logo design</h3>
+        </div>
+    </div>
+</section>
+<!----------PROJECTS---------->
+<section class="projects" id="projects">
+    <h1 class="heading">projects</h1>
+    <div class="work">
+        <div class="work-content">
+            <img src="./img/work1.png" alt="Project 1">
+            <div class="overlay">
+                <h3>Movie Buying Tickets System</h3>
+                <p>We created a cinema ticketing system called the “Movie Buying Tickets System”
+                to make the process of buying tickets more convenient. With our self-service 
+                kiosks, users can book tickets effortlessly, making it more accessible for 
+                everyone. The system streamlines operations, which boosts profits and eliminates 
+                queues, providing a seamless movie-watching experience.</p>
+                <a href="./img/Movie Buying Tickets System.pdf" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="./img/work2.png" alt="Project 2">
+            <div class="overlay">
+                <h3>Hospital Management System</h3>
+                <p>We've crafted a user-friendly system for Hope Medical Center to streamline patient 
+                transactions and records. Special features enhance day-to-day operations, with ongoing improvements 
+                in the works to exceed expectations and contribute to HMC's success.</p>
+                <a href="./img/Hospital Management System.pdf" class="btn">Download</a>
+            </div>
+        </div>
+
+        <div class="work-content">
+            <img src="./img/work3.png" alt="Project 3">
+            <div class="overlay">
+                <h3>Lipsync Animation</h3>
+                <p>It was an activity that we did back in my senior high school year where we created a lip-sync animation.</p>
+                <a href="./img/work3.mp4" class="btn">Download</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!----------contact---------->
+
+<section class="contact" id="contact">
+    <h1 class="heading">contact</h1>
+    <div class="row">
+        <form action="">
+            <h3>Get in Touch</h3>
+            <input type="text" placeholder="name" class="box">
+            <input type="email" placeholder="email" class="box">
+            <input type="number" placeholder="phone" class="box">
+            <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="send message" class="btn">
+        </form>
+        <div class="social-icons">
+            <div class="contact-left">
+                <p><i class="fa-solid fa-paper-plane"></i>colladojonalyn1120@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>(+63)9452850357</p>
+            </div>
+
+            <a href="https://www.facebook.com/jonalyn.collado.50746"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/jonalyncollado/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/jonalyn-collado-96773a262/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/jonalyncollado"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+</script>
+</body>
+</html>

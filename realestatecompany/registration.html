@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewpoint" content="witd=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Registration</title>
+
+        <!--box icons-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <!-- navbar -->
+        <header>
+            <div class="nav container">
+                <!-- logo -->
+                <a href="index.html" class="logo"><i class='bx bx-home'></i>PrimeVista Realty</a>
+            </div>
+        </header>
+
+        <!-- registration-->
+        <div class="register container">
+            <div class="register-container">
+                <h2>Welcome, Let's get started</h2>
+
+                <!--register form-->
+                <form action="submitted_form.php" method="post">
+                    <span>Full Name</span>
+                    <input type="text" name="name" id="name" placeholder="Enter your fullname" required>
+
+                    <span>Email</span>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+                    <span>Phone Number</span>
+                    <input type="tel" name="number" id="number" placeholder="Enter your number" required>
+                    
+                    <span>Password</span>
+                    <input type="password" name="password" id="password" placeholder="At least 8 character" required>
+
+                    <span>Date of Birth</span>
+                    <input type="date" name="dob" id="dob">
+
+                    <!-- Gender -->
+                    <span>Gender</span>
+                    <label><input type="radio" name="gender" value="Male">Male</label>
+                    <label><input type="radio" name="gender" value="Female">Female</label>
+                    <label><input type="radio" name="gender" value="Custom">Custom</label>
+
+                    <input type="submit" value="Register" class="buttom">
+                </form>
+            </div>
+
+            <!--register image-->
+            <div class="register-image">
+                <img src="benefits.png" alt="">
+            </div>
+        </div>
+        </div>
+    </body>
+</html>   
